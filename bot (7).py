@@ -5,6 +5,9 @@ import sqlite3
 import asyncio
 from typing import Optional, Dict, List
 import json
+import requests
+import os
+import webserver
 
 # Bot configuration
 TOKEN = None  # Set this through environment variables
